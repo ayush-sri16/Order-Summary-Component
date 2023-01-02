@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    background-color: rgb(191, 226, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.box>img{
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    width: min-content;
+    margin: auto;
+    border-radius: 20px;
+    height: 455px;
+    text-align: center;
+    box-shadow: 10px  10px 20px 2px rgb(102, 102, 102);
+}
+.box p{
+    margin: 20px 18px;
+}
+.plan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f2f4ffe8;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+#cancel{
+    border: none;
+    background-color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#proceed{
+    padding: 9px 63px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 1px grey;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+h4{
+    margin-top: 40px;
+}
